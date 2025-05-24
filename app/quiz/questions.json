@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is an exoplanet?",
+    "choices": ["A planet outside our solar system", "A planet in our solar system", "A moon orbiting Earth", "A star"],
+    "answer": "A planet outside our solar system"
+  },
+  {
+    "question": "Which method is most commonly used to detect exoplanets?",
+    "choices": ["Transit method", "Direct imaging", "Radial velocity method", "Astrometry"],
+    "answer": "Transit method"
+  },
+  {
+    "question": "What does the transit method measure?",
+    "choices": [
+      "The dip in a star's brightness as a planet passes in front of it",
+      "The wobble of a star caused by a planet's gravity",
+      "The light reflected directly from the exoplanet",
+      "The slight change in a star's position due to a planet's gravity"
+    ],
+    "answer": "The dip in a star's brightness as a planet passes in front of it"
+  },
+  {
+    "question": "What is a 'hot Jupiter'?",
+    "choices": [
+      "A gas giant that orbits very close to its star",
+      "A rocky planet that orbits very far from its star",
+      "A small, icy planet",
+      "A star that is hotter than our sun"
+    ],
+    "answer": "A gas giant that orbits very close to its star"
+  },
+  {
+    "question": "What is the habitable zone?",
+    "choices": [
+      "The region around a star where liquid water could exist on a planet's surface",
+      "The region around a star where the temperature is always above freezing",
+      "The region around a star where there is no atmosphere",
+      "The region around a star where life is guaranteed to exist"
+    ],
+    "answer": "The region around a star where liquid water could exist on a planet's surface"
+  },
+  {
+    "question": "What is a 'super-Earth'?",
+    "choices": [
+      "A rocky planet larger than Earth but smaller than Neptune",
+      "A gas giant larger than Jupiter",
+      "A planet made entirely of ice",
+      "A planet with a surface temperature above 1000 degrees Celsius"
+    ],
+    "answer": "A rocky planet larger than Earth but smaller than Neptune"
+  },
+  {
+    "question": "Which space telescope has been instrumental in discovering thousands of exoplanets?",
+    "choices": [
+      "Kepler Space Telescope",
+      "Hubble Space Telescope",
+      "James Webb Space Telescope",
+      "Spitzer Space Telescope"
+    ],
+    "answer": "Kepler Space Telescope"
+  },
+  {
+    "question": "What is microlensing in the context of exoplanet detection?",
+    "choices": [
+      "A technique that uses the gravity of a star to magnify the light from a more distant star, revealing planets around the foreground star",
+      "A method of directly imaging exoplanets",
+      "A technique that measures the wobble of a star caused by a planet's gravity",
+      "A method of detecting exoplanets by measuring the dip in a star's brightness"
+    ],
+    "answer": "A technique that uses the gravity of a star to magnify the light from a more distant star, revealing planets around the foreground star"
+  },
+  {
+    "question": "What is the Goldilocks zone?",
+    "choices": [
+      "Another term for the habitable zone",
+      "The region where only small planets can form",
+      "The area between two stars in a binary system",
+      "The zone where planets are guaranteed to have water"
+    ],
+    "answer": "Another term for the habitable zone"
+  },
+  {
+    "question": "What is the main challenge in directly imaging exoplanets?",
+    "choices": [
+      "The extreme brightness difference between the star and the planet",
+      "The small size of exoplanets",
+      "The great distance to other star systems",
+      "The lack of powerful enough telescopes"
+    ],
+    "answer": "The extreme brightness difference between the star and the planet"
+  }
+]

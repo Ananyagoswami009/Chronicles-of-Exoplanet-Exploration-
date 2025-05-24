@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #090909; /* Galaxy background color */
+  font-family: 'Roboto', sans-serif; /* Adding a modern font for better readability */
+}
+
+/* NavBar Styling */
+nav {
+  display: flex;
+  justify-content: center;  /* Centers items horizontally */
+  align-items: center;      /* Centers items vertically */
+  height: 60px;             /* Nav height */
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black for the nav background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  position: fixed;           /* Fix the navbar at the top */
+  width: 100%;               /* Full width of the screen */
+  z-index: 1000;             /* Ensures nav stays on top */
+  transition: background-color 0.3s ease; /* Smooth transition for background on scroll */
+}
+
+nav:hover {
+  background-color: rgba(0, 0, 0, 0.9); /* Darken background slightly on hover */
+}
+
+nav .flex {
+  display: flex;
+  justify-content: space-between; /* Ensure space between each menu item */
+  max-width: 400px;              /* Limits the width for large screens */
+  width: 100%;
+  padding: 0 20px;                /* Horizontal padding */
+}
+
+nav a {
+  color: #ccc;                    /* Light gray for default link color */
+  text-align: center;              /* Centers text within the buttons */
+  padding: 5px 2px;              /* Padding for clickable area */
+  margin: 2px;                  /* Adds spacing between menu items */
+  text-decoration: none;           /* Remove underline */
+  font-size: 16px;                 /* Increase font size for better readability */
+  border-radius: 8px;              /* Rounded edges */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+nav a:hover {
+  background-color: #444;          /* Darker background on hover */
+  color: #fff;                     /* White text on hover */
+  transform: scale(1.05);          /* Slightly scale up on hover */
+}
+
+nav a.active {
+  background-color: #666;          /* Different background for active/current link */
+  color: white;                    /* White text for active state */
+}
+
+/* Responsive Styling for smaller screens */
+@media (max-width: 768px) {
+  nav .flex {
+    flex-direction: column;        /* Stack items vertically */
+    justify-content: center;       /* Center vertically in mobile */
+    padding: 10px 0;
+  }
+  
+  nav a {
+    margin: 5px 0;                /* Vertical spacing for links on mobile */
+    font-size: 18px;               /* Slightly larger text for easier tapping */
+  }
+}
+
+/* Ensures background and content are fully visible */
+div#mountNode {
+  width: 100vw;
+  height: 100vh;
+}
